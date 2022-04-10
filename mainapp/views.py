@@ -62,7 +62,7 @@ def products(request):
     content = {
         'title': 'Geekshop - каталог',
         'categories': ProductCategories.objects.all(),
-        'prod_card': Product.objects.all(),
+        'products': Product.objects.all(),
     }
 
 
